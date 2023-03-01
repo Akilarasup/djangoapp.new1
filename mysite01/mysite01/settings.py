@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-gdpvi*p3mcec7x90w9t!_*og*0c)_bh&44xsxw3j1hg$7tz-hf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['34.232.65.137']
 
 
 # Application definition
@@ -121,3 +121,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+STATIC_ROOT = '/var/www/mysite/assets/'
